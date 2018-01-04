@@ -1,6 +1,6 @@
 var getdieroll= function(diesize){
-    console.log(diesize);
-    return Math.ceil(diesize*Math.random());
+    var result=Math.ceil(diesize*Math.random());
+    return result;
 };
 var Firstdie=getdieroll(6);
 var Seconddie=getdieroll(6);
